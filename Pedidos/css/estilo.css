@@ -1,0 +1,88 @@
+/* Estilo base do corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffbea; /* tom claro de amarelo */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Estilo para a navbar */
+  .navbar {
+    background-color: #ffcc00 !important; /* amarelo forte */
+    border-bottom: 3px solid #c40000; /* vermelho escuro */
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #c40000 !important; /* vermelho */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #008000 !important; /* verde */
+    text-decoration: underline;
+  }
+  
+  /* Estilo para dropdown */
+  .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ffcc00;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e60000; /* vermelho escuro */
+    color: #fff;
+  }
+  
+  /* Jumbotron ou destaque da página inicial */
+  .jumbotron {
+    background-color: #ffffff;
+    border-left: 8px solid #ffcc00;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(200, 0, 0, 0.2);
+  }
+  
+  .jumbotron h1 {
+    color: #c40000;
+  }
+  
+  .jumbotron p.lead {
+    color: #008000;
+  }
+  
+  /* Botões padrões */
+  .btn {
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .btn-primary {
+    background-color: #c40000;
+    border-color: #a00000;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a00000;
+    border-color: #800000;
+  }
+  
+  .btn-success {
+    background-color: #008000;
+    border-color: #006600;
+  }
+  
+  .btn-success:hover {
+    background-color: #006600;
+  }
+  
+  /* Rodapé (se houver) */
+  footer {
+    background-color: #ffcc00;
+    padding: 1rem;
+    text-align: center;
+    color: #c40000;
+    margin-top: 3rem;
+  }
+  
